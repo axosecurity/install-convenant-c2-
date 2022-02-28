@@ -6,4 +6,16 @@ in this repository i had share some code for installing convenant c2 in linux sy
 
 git clone --recurse-submodules https://github.com/cobbr/Covenant
 
-now install  Dotnet Core
+# install  Dotnet Core in linux 
+
+wget https://dotnet.microsoft.com/download/dotnet/scripts/v1/dotnet-install.sh
+
+$ chmod +x *
+
+$ sudo ./dotnet-install.sh
+
+# Runing Convenant-c2
+
+$ cd Covenant/Covenant
+
+$ dotnet run
